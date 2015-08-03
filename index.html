@@ -1,1 +1,97 @@
-Hola mundo de Diego
+<!DOCTYPE html>
+<head>
+  <title>Anna Dowlin</title>
+  <style>
+    body {
+      text-align:  center;
+      background: url("http://periodicoespacio.com/wp-content/uploads/2015/05/ideacreativa.jpg");
+      
+      background-position: center;
+      color: orange;
+      font-family: helvetica;
+      
+    }
+    p {
+      font-size: 22px;
+    }
+    button[ {
+      border: 0;
+      padding: 30px;
+      font-size: 30px;
+      border-style: solid;
+      border-color: blue;
+    }
+    button[type="submit"] {
+      background: red;
+      color: white;
+      
+    }
+  </style>
+
+
+  <script type="text/javascript">
+
+  function mostrarMensaje(){
+    var nombre, edad;
+
+    nombre= prompt('Dame tu nombre');
+
+    if (nombre==""){
+
+    }else
+    {
+      alert( 'hola' + nombre +' no puedes jugar futbol');
+    }
+    else{
+     nombre=promt('Tu nombre es?')
+
+    }
+
+    if (nombre=="Mko") {
+      alert('Don´t play soccer');
+    }
+
+    if(nombre="Angie"){
+      alert('QFB');
+    }
+    else{
+      edad=prompt('Dame tu edad');
+      edad=Number(edad);
+      if(edad>0 && edad<10){
+        alert('Eres un niño');
+      }
+      else if(edad>10 && edad<20){
+        alert('Adolescente');
+      }
+      else{
+        alert('Estas viejo');
+      
+      }
+
+
+    }
+  
+  }
+
+  </script>
+
+
+</head>
+<body>
+  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTgZSEmJ_krWWwGaeqhBCFY6rk9WI8wC_aNGud3aIBRhTrDim5MUw">
+  <p>Unete a algo increible!</p>
+  <button onclick="CREA()">hola q hace</button>
+  <button onclick="mostrarMensaje()">Nombre</button>
+
+  <script type="text/javascript">
+    function CREA(){
+      alert("Bienvenido futuro programador");
+
+    }
+
+  </script>
+
+ 
+
+
+</body>
